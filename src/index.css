@@ -29,4 +29,9 @@
     rgba(112, 157, 255, 0.8),
     hsla(242, 74%, 61%, 0.8)
   )!important;
+} 
+
+.bg-custom-shadow{
+  box-shadow: 0 .125rem 0 0 rgba(7,7,33,.15);
 }
+

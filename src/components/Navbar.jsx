@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import {FaBars, FaTimes, FaFacebook, FaGithub, FaLinkedin} from 'react-icons/fa'
+import {FaBars, FaTimes, FaGithub, FaLinkedin} from 'react-icons/fa'
 import {HiOutlineMail} from 'react-icons/hi'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
 //import Logo from "../Assets/logo.png"
@@ -11,7 +11,7 @@ const[nav, setNav] = useState(false)
 const handleClick = () => setNav(!nav)
 
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
+    <div className="fixed w-full h-[40px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
         <div>
         <p>Marco Buitenhuis - Portfolio</p>
         </div>
@@ -19,28 +19,33 @@ const handleClick = () => setNav(!nav)
         {/* menu */}
         <ul className='hidden md:flex'>
             <li>
-            <Link to="home" smooth={true} offset={50} duration={400} >
+            <a href='/home'>
             Home
-            </Link>
+            </a>
             </li>
             <li>
-            <Link to="about" smooth={true} offset={50} duration={500} >
+            <a href='/about'>
             About
-            </Link>
+            </a>
             </li>
             <li>
-            <Link to="skills" smooth={true} offset={50} duration={500} >
+            <a href='/skills'>
             Skills
-            </Link>
+            </a>
             </li>
             <li>
-              <Link to="work" smooth={true} offset={50} duration={500} >
-            Work
-            </Link>
+            <a href='/work'>
+            work
+            </a>
             </li>
-            <li><Link to="contact" smooth={true} offset={50} duration={500} >
+            <li> <a href='/contact'>
             Contact
-            </Link>
+            </a>
+            </li>
+            <li>
+              <a href='/projecten'>
+              Projecten
+            </a>
             </li>
         </ul>
     

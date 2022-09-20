@@ -13,10 +13,11 @@ const About = () => {
             </div>
             <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
                 <div className='sm:text-right text-4xl font-bold'>
-                    <p>Hi, I'm nice to meet you. Please take a look around.</p>
+                    <p>Nice to meet you 👋</p>
                 </div>   
                 <div>
-                    <p>I am passionate about building excellent software that improves the lives of those around me. I specialize in creating software for clients ranging from individuals and small-businesses all the way to large enterprise corporations. What would you do if you had a software expert available at your fingertips.</p>
+                <p>Met veel passie maak ik verschillende projecten. Zo ben ik gespecialiseerd in UX design, maar ben ik ook een ervaren front-end developer. 
+                Mijn doel is om ervoor te zorgen dat het leven wat gemakkelijker kan worden gemaakt. Met veel plezier maak ik software voor klanten op schaal van individueel niveau tot groot schalige bedrijven zoals de Belastingdienst. Dit in combinatie met een goed design zorgt ervoor dat een doelgroep de gepaste oplossing geboden krijgt.</p>
                 </div>   
             </div>
         </div>
