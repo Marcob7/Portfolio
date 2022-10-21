@@ -8,7 +8,7 @@ function Work() {
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
             <div className='pb-8'>
             <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600'>Projecten</p>
-            <p className='py-6'>// Bekijk hier mijn meest recente werk</p>
+            <p className='py-6'> Bekijk hier mijn meest recente werk</p>
         </div>
       
         {/*Container*/}
@@ -17,7 +17,7 @@ function Work() {
                 {/*Grid item */}
                 <div 
                 style={{ backgroundImage: `url(${workImg})` }}
-                className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                className='shadow-lg shadow-[#040c16] group container flex justify-center items-center mx-auto content-div'>
                 
                 {/*Hover effexts */}
                 <div className='opacity-0 group-hover:opacity-100'>
@@ -25,20 +25,20 @@ function Work() {
                     Selfservice portaal ICT-servicedesk
                 </span> 
                 <div className='pt-8 text-center'>
-                    <a href="#">
+                    <a href="./">
                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                     </a>
-                    <a href="#">
+                    <a href="./">
                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                     </a>
-                </div>
+                </div> 
 
                 </div>
             </div>
 
             <div 
                 style={{ backgroundImage: `url(${realEstate})` }}
-                className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                className='shadow-lg shadow-[#040c16] group container flex justify-center items-center mx-auto content-div'>
                 
                 {/*Hover effexts */}
                 <div className='opacity-0 group-hover:opacity-100'>
@@ -46,10 +46,10 @@ function Work() {
                     Genesys widget chat & callback
                 </span> 
                 <div className='pt-8 text-center'>
-                    <a href="#">
+                    <a href="./">
                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                     </a>
-                    <a href="#">
+                    <a href="./">
                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                     </a>
                 </div>
@@ -59,7 +59,7 @@ function Work() {
             {/*Grid item */}
             <div 
                 style={{ backgroundImage: `url(${workImg})` }}
-                className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                className='shadow-lg shadow-[#040c16] group container flex justify-center items-center mx-auto content-div'>
                 
                 {/*Hover effexts */}
                 <div className='opacity-0 group-hover:opacity-100'>
@@ -67,10 +67,10 @@ function Work() {
                     Lijn robot 
                 </span> 
                 <div className='pt-8 text-center'>
-                    <a href="#">
+                    <a href="./">
                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                     </a>
-                    <a href="#">
+                    <a href="./">
                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                     </a>
                 </div>
@@ -80,7 +80,7 @@ function Work() {
 
             <div 
                 style={{ backgroundImage: `url(${realEstate})` }}
-                className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                className='shadow-lg shadow-[#040c16] group container flex justify-center items-center mx-auto content-div'>
                 
                 {/*Hover effexts */}
                 <div className='opacity-0 group-hover:opacity-100'>
@@ -88,10 +88,10 @@ function Work() {
                     Dashboard
                 </span> 
                 <div className='pt-8 text-center'>
-                    <a href="#">
+                    <a href="./">
                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                     </a>
-                    <a href="#">
+                    <a href="./">
                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                     </a>
                 </div>
@@ -101,7 +101,7 @@ function Work() {
             {/*Grid item */}
             <div 
                 style={{ backgroundImage: `url(${workImg})` }}
-                className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                className='shadow-lg shadow-[#040c16] group container flex justify-center items-center mx-auto content-div'>
                 
                 {/*Hover effexts */}
                 <div className='opacity-0 group-hover:opacity-100'>
@@ -109,10 +109,10 @@ function Work() {
                    Fotovakschool redesign
                 </span> 
                 <div className='pt-8 text-center'>
-                    <a href="#">
+                    <a href="./"> 
                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                     </a>
-                    <a href="#">
+                    <a href="./">
                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                     </a>
                 </div>
@@ -122,7 +122,7 @@ function Work() {
 
             <div 
                 style={{ backgroundImage: `url(${realEstate})` }}
-                className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                className='shadow-lg shadow-[#040c16] group container flex justify-center items-center mx-auto content-div'>
                 
                 {/*Hover effexts */}
                 <div className='opacity-0 group-hover:opacity-100'>
@@ -130,12 +130,12 @@ function Work() {
                     React JS Application
                 </span> 
                 <div className='pt-8 text-center'>
-                    <a href="#">
+                    <button href="./"> 
                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
-                    </a>
-                    <a href="#">
+                    </button>
+                    <button href="./">
                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
-                    </a>
+                    </button> 
                 </div>
 
                 </div>

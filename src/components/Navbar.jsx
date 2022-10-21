@@ -11,43 +11,34 @@ const[nav, setNav] = useState(false)
 const handleClick = () => setNav(!nav)
 
   return (
-    <div className="fixed w-full h-[40px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
-        <div>
-        <p>Marco Buitenhuis - Portfolio</p>
+    <div className="fixed w-full h-[40px] flex justify-between items-center px-4 bg-[#252525] text-gray-300">
+        <div className='project-heading'>
+        <h2>Mb - Portfolio</h2>
         </div>
 
-        {/* menu */}
+        {/* Menu */}
+        
         <ul className='hidden md:flex'>
-            <li>
-            <a href='/home'>
+            <li className="">
             Home
-            </a>
-            </li>
-            <li>
-            <a href='/about'>
+           </li>
+            <li className="">
             About
-            </a>
+          </li>
+            <li className="">
+            Ervaring
+           </li>
+            <li className="">
+            Work
             </li>
-            <li>
-            <a href='/skills'>
-            Skills
-            </a>
-            </li>
-            <li>
-            <a href='/work'>
-            work
-            </a>
-            </li>
-            <li> <a href='/contact'>
+            <li className="">
             Contact
-            </a>
-            </li>
-            <li>
-              <a href='/projecten'>
-              Projecten
-            </a>
-            </li>
+           </li>
+           <li className="">
+            <a href="/Projecten">Projecten</a>
+           </li>
         </ul>
+     
     
 
          {/* Hamburger */}
