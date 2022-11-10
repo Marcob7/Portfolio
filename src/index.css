@@ -59,8 +59,8 @@ button:hover::after {
 .content-div:hover {
   background-image: linear-gradient(
     to right,
-    rgba(112, 157, 255, 0.8),
-    hsla(242, 74%, 61%, 0.8)
+    rgba(109, 16, 16, 0.8),
+    hsla(240, 2%, 10%, 0.8)
   )!important;
 } 
 
@@ -77,8 +77,6 @@ button:hover::after {
   height: 25px; 
   z-index: 1;
   background-color: #0a5ae6;
-  -webkit-box-shadow: -2px 3px 15px 3px rgba(174, 182, 255, 0.612);
-  box-shadow: -2px 3px 15px 3px rgba(174, 182, 255, 0.612);
 }
 .project-heading h2{
   padding:5px;
@@ -105,4 +103,37 @@ svg * { transform-origin: 50% }
 
 @keyframes right {
   100% { transform: rotate(360deg) }
+}
+
+.image--monitor {
+  display: flex;
+  align-items: right;
+  justify-content: end;
+}
+
+
+.floating {
+	animation-name: floating;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+	margin-left: 30px;
+	margin-top: 10px;
+}
+
+@keyframes floating {
+	0% { transform: translate(0, 0px); }
+	50% { transform: translate(0, 25px); }
+	100% { transform: translate(0, -0px); }
+}
+
+.reveal{
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+.reveal.active{
+  transform: translateY(0);
+  opacity: 1;
 }

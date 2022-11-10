@@ -7,8 +7,8 @@ function Work() {
     <div name='work' className='bg-[#0a192f] w-full md:h-screen text-gray-300'>
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
             <div className='pb-8'>
-            <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600'>Projecten</p>
-            <p className='py-6'> Bekijk hier mijn meest recente werk</p>
+            <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-[#003082]'>Projecten</p>
+            <p className='py-6'> // Bekijk hier mijn meest recente werk</p>
         </div>
       
         {/*Container*/}
@@ -24,12 +24,12 @@ function Work() {
                 <span className='text-1xl font-bold text-white tracking-wider'>
                     Selfservice portaal ICT-servicedesk
                 </span> 
+                <span className='text-sm px-1'>
+                    <p>Een volledig selfservice portaal met uitgebreide functionaliteiten.</p>
+                </span>
                 <div className='pt-8 text-center'>
                     <a href="./">
-                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
-                    </a>
-                    <a href="./">
-                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Lees meer</button>
                     </a>
                 </div> 
 
