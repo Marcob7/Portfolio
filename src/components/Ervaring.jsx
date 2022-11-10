@@ -6,9 +6,6 @@ import ReactImg from '../Assets/react.png';
 import Node from '../Assets/node.png';
 import GitHub from '../Assets/github.png';
 import Tailwind from '../Assets/tailwind.png';
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
 import hat from '../Assets/hat.png';
 
 const Ervaring = () => {
