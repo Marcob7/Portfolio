@@ -34,7 +34,7 @@ const Home = () => {
               
                 </button>
                <button className='group px-4 py-3 mr-2 flex items-center hover:bg-[#003082] hover:border-[#003082]'>
-                    Bekijk mijn werk
+                Bekijk mijn werk
                
                 </button>
             </div>

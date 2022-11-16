@@ -59,13 +59,13 @@ button:hover::after {
 .content-div:hover {
   background-image: linear-gradient(
     to right,
-    rgba(109, 16, 16, 0.8),
-    hsla(240, 2%, 10%, 0.8)
+    rgba(26, 5, 77, 0.8),
+    hsla(240, 88%, 23%, 0.8)
   )!important;
 } 
 
 .bg-custom-shadow{
-  box-shadow: 0 .125rem 0 0 rgba(7,7,33,.15);
+  box-shadow: 0 .125rem 0 0 rgba(7,7,33,.15); 
 }
 
 .project-heading h2::before {

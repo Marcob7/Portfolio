@@ -1,5 +1,5 @@
 import React from 'react'
-import monitor from '../Assets/monitor.png';
+import surfing from '../Assets/surfing.png'; 
 
 const About = () => {
   return (
@@ -30,7 +30,7 @@ const About = () => {
                 <br></br><br></br>Mijn doel is om ervoor te zorgen dat het leven wat gemakkelijker kan worden gemaakt. Met veel plezier maak ik software voor klanten op schaal van individueel niveau tot groot schalige bedrijven zoals de Belastingdienst. <br></br> Dit in combinatie met een goed design zorgt ervoor dat een doelgroep de gepaste oplossing geboden krijgt.</p>
                 </div>   
                 <div className='sm:text-left image--monitor reveal'>
-                <img alt="monitor" src={monitor} width={250} height={400} />
+                <img alt="monitor" src={surfing} width={350} height={400} />
                 </div>   
                 <div>
               
