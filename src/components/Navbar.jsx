@@ -11,7 +11,7 @@ const[nav, setNav] = useState(false)
 const handleClick = () => setNav(!nav)
 
   return (
-    <div className="fixed w-full h-[40px] flex justify-between items-center px-4 bg-[#252525] text-gray-300">
+    <div className="fixed w-full h-[40px] flex justify-between items-center navbar px-4 bg-[#252525] text-gray-300">
         <div className='project-heading'>
         <h2>Marco Buitenhuis Portfolio</h2>
         </div>

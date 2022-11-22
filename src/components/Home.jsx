@@ -18,23 +18,24 @@ const Home = () => {
             </div>
         </div> 
         
-        <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-4 px-4'>
+        <div className='max-w-[1300px] w-full grid sm:grid-cols-2 gap-4 px-4'>
             <div className='sm:text-left text-4xl font-bold'>
             <div className='text-left'>
-            <p className='text-[#cce1f6] text-sm'>Hallo, mijn naam is,</p>
+            <p className='text-[#cce1f6] text-sm'>Hello, my name is,</p>
             </div>
             <h1 className='text-4xl sm:text-4xl font-bold text-[#d1dfed]'>Marco Buitenhuis</h1>
-        <h2 className='text-4xl sm:text-3xl font-bold text-[#8892b0]'>Ik ben een Front-end developer &  UX designer.</h2>
+        <h2 className='text-4xl sm:text-3xl font-bold text-[#8892b0]'>I am a Front-end developer & UX designer</h2>
         <div className='sm:text-left text-sm py-4'>
-        <p>Mijn specialiteit is het maken van uitzonderlijke digitale experiences. Op het moment ben ik gefocussed op het maken en ontwerpen van responsive web applicaties.</p>
+        <p>The best from both. An unique combination. My specialty is making outstanding digital experiences. At the moment i'm focussed at coding, and designing responsive web applications. 
+        </p>
             </div>   
             <div className='text-sm flex items-center py-4'>
-            <button className='group px-4 py-3 mr-2 flex items-center hover:bg-[#003082] hover:border-[#003082]'>
-                Download mijn Cv
+            <button className='group px-4 py-3 mr-2 flex items-center hover:bg-[#8685ef] hover:border-[#8685ef]'>
+                Download my resume
               
                 </button>
-               <button className='group px-4 py-3 mr-2 flex items-center hover:bg-[#003082] hover:border-[#003082]'>
-                Bekijk mijn werk
+               <button className='group px-4 py-3 mr-2 flex items-center hover:bg-[#8685ef] hover:border-[#8685ef]'>
+                Take a look at my work
                
                 </button>
             </div>
